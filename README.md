@@ -2,11 +2,6 @@
 
 Code archive for fetal brain spatial gene regulatory network analysis.
 
-This repository contains cleaned Jupyter notebooks and helper code migrated from
-`Previous_code`. Notebook outputs were cleared before commit so the repository
-tracks code and documentation instead of execution logs, rendered figures, or
-large binary data.
-
 ## Repository Layout
 
 ```text
@@ -90,8 +85,6 @@ corresponding notebook sections.
 
 ## Notes
 
-- Notebook outputs and execution counts were cleared during repository
-  preparation.
 - This repository is a code archive and workflow reference, not a single-entry
   executable pipeline.
 - Large `.h5ad`, `.rds`, generated figures, and GRN output directories are
