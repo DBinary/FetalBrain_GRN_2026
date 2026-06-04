@@ -1,0 +1,3 @@
+[submodule "SpaGRN"]
+	path = SpaGRN
+	url = https://github.com/DBinary/SpaGRN.git

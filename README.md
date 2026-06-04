@@ -12,6 +12,7 @@ large binary data.
 ```text
 .
 ├── _3D_plot.py
+├── SpaGRN/
 ├── docs/
 │   ├── CODE_PARTS.md
 │   ├── NOTEBOOK_OUTPUT_MAP.md
@@ -27,6 +28,10 @@ large binary data.
 │   └── 07_supplementary/
 └── requirements.txt
 ```
+
+`SpaGRN/` is a git submodule pointing to
+`https://github.com/DBinary/SpaGRN`. It contains the GPU-rewritten spatial GRN
+inference implementation used by the analysis notebooks.
 
 ## Analysis Flow
 
@@ -64,6 +69,12 @@ Common GRN resource files referenced by the notebooks include:
 - `GRN_resource/lr_network_mouse.csv`
 - motif databases, motif annotations, and transcription factor lists used by
   spaGRN / pySCENIC workflows
+
+Initialize the SpaGRN submodule after cloning this repository:
+
+```bash
+git submodule update --init --recursive
+```
 
 Some notebooks also reference historical absolute paths under
 `/home/dataset-assist-0/...`. Those paths are preserved from the original
