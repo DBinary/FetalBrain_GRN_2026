@@ -1,6 +1,6 @@
 # FetalBrain_GRN_2026
 
-Code archive for fetal brain spatial gene regulatory network analysis.
+Code archive for fetal brain spatial gene regulatory network analysis. (Nature Neurosciences in review)
 
 ## Repository Layout
 
